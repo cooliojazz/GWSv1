@@ -1,0 +1,72 @@
+
+#319F2A;
+
+.funnel-padding {
+  padding: 20px 10px 0px;
+}
+
+
+.btn-dark1{
+	border:1px solid transparent;
+	padding:15px 36px;
+	border-radius:5px;
+	display: inline-block;
+	font-size:12px;
+	text-transform:uppercase;
+	position:0;
+	overflow:hidden;
+	transition: color 1000ms ease 0s, background-color 1500ms ease 0s !important;
+	background:#0a0a0a;
+	color:#fff;
+}
+
+
+.btn-dark123{
+	border:1px solid transparent;
+	padding:15px 36px;
+  margin: 0 auto;
+	margin-top: .1em;
+  margin-bottom: .1em;
+  max-width: 350px;
+  min-width: 25%;
+	border-radius:5px;
+	display: inline-block;
+	font-size:1.5em;
+	text-transform:uppercase;
+  text-align: center;
+	position:0;
+	overflow:hidden;
+	transition: color 1000ms ease 0s, background-color 1500ms ease 0s !important;
+	background:#0a0a0a;
+	color:#319F2A;
+  float:right;
+}
+
+
+.funnel-button {
+  padding: 10px;
+  margin: 0 auto;
+	margin-top: .1em;
+  max-width: 350px;
+  min-width: 25%;
+  position:0;
+	overflow:hidden;
+  font-size: 2em;
+  text-align: center;
+  display: inline-block;
+  transition: color 1000ms ease 0s, background-color 1500ms ease 0s !important;
+  background: #000;
+  float:right;
+}
+
+
+
+.btn-dark:hover{
+	color:#000;
+	transition: color 1000ms ease 0s, background-color 1500ms ease 0s;
+}
+
+.btn-dark > i
+{
+padding-left: 7px;
+}

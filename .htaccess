@@ -1,0 +1,28 @@
+RewriteEngine on
+
+# force ssl
+RewriteCond     %{SERVER_PORT} ^80$
+RewriteRule     ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+# Ensure all directory URLs have a trailing slash.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\/$
+RewriteCond %{REQUEST_URI} !\/[^\/]*\.[^\/]+$
+RewriteRule .* http://%{HTTP_HOST}%{REQUEST_URI}/ [L,R=301]
+# Same for HTTPS:
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\/$
+RewriteCond %{REQUEST_URI} !\/[^\/]*\.[^\/]+$
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI}/ [L,R=301]
+
+Order Deny,Allow
+Deny from 64.129.73.50
+
+# Custom error pages.
+ErrorDocument 404 /error.html

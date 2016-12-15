@@ -1,0 +1,80 @@
+/****************************************
+PRODUCT FEATURES CUSTOM
+**************************************
+
+#page_banner{
+	background:url(../images/structural-frames-hero.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top:10%;
+}
+#page_banner .page-header {
+  margin: 86px 0 52px;
+  border:none;
+ }
+#page_banner .page-header h2{
+	color:#fff;
+	padding-bottom: 10px;
+	font-size:28px;
+}
+#page_banner .page-header p{
+	color:#fff;
+}
+**/
+a.funnel-button {
+	position: relative;
+	z-index: 10;
+}
+
+
+#pbr_slider .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.tabs_gws .nav-tabs > li.active > a,
+.tabs_gws .nav-tabs > li.active > a:focus,
+.tabs_gws .nav-tabs > li.active > a:hover {
+  color: #319f2a;
+}
+.tabs_gws .nav > li > a:focus, .tabs_gws .nav > li > a:hover {
+  color:#319f2a;
+}
+
+
+.tabs_gws .nav-tabs > li > a {
+  border:none;
+  border-radius:0;
+  line-height: 1.42857;
+  /*margin-right: 2px;*/
+  font-size:15px;
+  color:#000;
+  text-transform:uppercase;
+  padding-left: 30px;
+}
+.tabs_gws .nav-tabs > li.gws-nav-2:nth-child(6) a{
+/*  padding-right: 0;*/
+}
+.tabs_gws .nav-tabs > li.active > a,
+.tabs_gws .nav-tabs > li.active > a:focus,
+.tabs_gws .nav-tabs > li.active > a:hover {
+  background-color:transparent;
+  border-color:transparent;
+  border: none;
+  cursor: default;
+  outline: none;
+}
+.tabs_gws .nav > li > a:focus, .tabs .nav > li > a:hover {
+  background-color:transparent;
+  text-decoration: none;
+  border: none;
+}
+.tabs_gws .nav-tabs > li {
+  float: right;
+  margin-bottom: -3px;
+}
+
+.project .tabs_gws {
+  margin-top: 36px;
+}

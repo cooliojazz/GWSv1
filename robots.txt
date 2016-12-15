@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow:
+Disallow: /forms/user/forgot
+Disallow: /blog/gerdau-receives-steelie-award
+Disallow: /blog/index
+Disallow: /blog/concerns-raised-over-chinese-steel-exports
+Disallow: /forms/user/login
+Disallow: /blog/Tax-Increase-Chinese-Steel-Imports
+Disallow: /blog/New-Steel-Protective-Coating-Discovered
+Disallow: /blog/steel-caucus-requests-action
+Disallow: /product_features/warranties
+
+Sitemap: https://greatwesternbuildings.com/sitemap.xml

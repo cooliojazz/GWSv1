@@ -1,0 +1,217 @@
+/* Button */
+
+.btn-dark:hover{
+	color:#fff;
+	transition: color 1000ms ease 0s, background-color 1500ms ease 0s;
+}
+.btn-light:hover{
+	background:#0a0a0a;
+	color:#fff;
+	transition: color 1000ms ease 0s, background-color 1500ms ease 0s;
+}
+.btn-dark{
+	border:1px solid transparent;
+	padding:15px 36px;
+	border-radius:5px;
+	display: inline-block;
+	font-size:1.35rem;
+  font-weight: bold;
+	text-transform:uppercase;
+	position:0;
+	overflow:hidden;
+	transition: color 1000ms ease 0s, background-color 1500ms ease 0s !important;
+	background:#0a0a0a;
+	color:#fff;
+}
+.btn-whitw{
+	border:1px solid transparent;
+	padding:15px 36px;
+	border-radius:5px;
+	display: inline-block;
+	font-size:12px;
+	text-transform:uppercase;
+	position:0;
+	overflow:hidden;
+	transition: color 1000ms ease 0s, background-color 1500ms ease 0s !important;
+	background:#fff;
+	color:#0a0a0a;
+}
+.btn-whitw:hover{
+	background:#0a0a0a;
+	color:#fff;
+	transition: color 1000ms ease 0s, background-color 1500ms ease 0s;
+}
+.rev_slider .tp-mask-wrap .tp-caption, .rev_slider .tp-mask-wrap *:last-child, .wpb_text_column .rev_slider .tp-mask-wrap .tp-caption, .wpb_text_column .rev_slider .tp-mask-wrap *:last-child {
+  margin-bottom: 0;
+  margin: 0 5px !important;
+}
+.tp-tab.selected::before{content: none;}
+.btn-light{
+	padding:16px 36px;
+	border-radius:5px;
+	border-style:none;
+	display: inline-block;
+	font-size:1.35rem;
+  font-weight: bold;
+	text-transform:uppercase;
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+	transition: color 1000ms ease 0s, background-color 1500ms ease 0s !important;
+	color:#fff;
+}
+a {
+  transition: color 1000ms ease 0s, background-color 1500ms ease 0s;
+}
+
+
+.wizard {
+    margin: 20px auto;
+    background: #fff;
+}
+
+    .wizard .nav-tabs {
+        position: relative;
+        margin: 40px auto;
+        margin-bottom: 0;
+        border-bottom-color: #232323;
+    }
+
+    .wizard > div.wizard-inner {
+        position: relative;
+    }
+
+.connecting-line {
+    height: 2px;
+    background: #232323;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #232323;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#232323;
+}
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #319f2a;
+
+}
+.wizard li.active span.round-tab i{
+    color: #319f2a;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs > li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #319f2a;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #319f2a;
+    width: 1rem;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .wizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media( max-width : 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+
+.pr1 {
+  padding-right: 1rem;
+}
+
+.pl1 {
+  padding-left: 1rem;
+}
